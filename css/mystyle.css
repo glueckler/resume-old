@@ -1,6 +1,17 @@
+*:focus {outline:none !important}
+
 body{
 	margin: 0;
 	font-family: 'PT Serif', serif;
+	background-color: #FFFFFE;
+}
+
+.simple-screen-fix{
+	background-color: #FFFFFE;
+}
+
+hr{
+	margin: 0;
 }
 
 h1{
@@ -32,13 +43,65 @@ ul{
 	justify-content: space-between;
 }
 
+.skill-flex-box ul{
+	justify-content: flex-start;
+}
+
+.skill-flex-box li{
+	padding: 5px 20px 5px 25px;
+}
+
 li{
 	padding: 5px 25px;
+}
+
+.button{
+    background-color: #FDFDFD; /* gray */
+    width: 120px;
+    border: 1px solid #ECECEB;
+    margin-top: 10px;
+    color: gray;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover{
+	color: black;
 }
 
 .content{
 	width: 800px;
 	margin: 0 auto;
+}
+
+@media (min-width: 800px) and (max-width: 1150px){
+	.content{
+	margin-left: 175px;
+	}
+}
+
+.buttons{
+	position: fixed;
+	left: 20px;
+	top: 30px;
+}
+
+.buttons-small{
+	display: none;
+}
+
+.contact{
+	color: gray;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+
+.contact:hover{
+	color: black;
 }
 
 .my-name{
@@ -55,7 +118,7 @@ li{
 	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.46);
 }
 
-.rowofshit{
+.rowofshit, .history{
 	margin-top: 30px;
 }
 
@@ -65,7 +128,50 @@ li{
 	display: inline;
 }
 
+@media (max-width: 800px){
 
+body{
+	margin: 5px;
+	font-size: 75%;
+}
+
+.content{
+	width: 610px;
+}
+
+.buttons{
+	display: none;
+}
+
+.buttons-small{
+	display: block;
+
+}
+
+.button{
+    background-color: #FDFDFD; /* gray */
+    width: 60px;
+    border: 1px solid #ECECEB;
+    margin-top: 10px;
+    color: gray;
+    padding: 10px 5px;
+    font-size: 10px;
+}
+
+.simple-screen-fix{
+	display: none;
+}
+
+.contact{
+	display: none;
+}
+
+#facepic{
+	display: none;
+}
+
+
+}
 
 
 

@@ -6,7 +6,7 @@
 	<meta name="description" content="What is Dean doing with his life?">
     <meta name="author" content=" hisimagination ">
 
-    <title>Dean's Resume</title>
+    <title> .Dean's Resume</title>
 
     <link href="css/mystyle.css" rel="stylesheet">
     <!-- for FF, Chrome, Opera -->
@@ -14,20 +14,23 @@
 	<link rel="icon" type="image/png" href="img/green32.png" sizes="32x32">
 
 	<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
 <div class="content">
   <div class="my-name">
   	Dean Glueckler
-  	<img src="img/deanpic.png" alt="my face">
+  	<img id="facepic" src="img/deanpic.png" alt="my face">
   </div>
-
-  <div class="rowofshit">
-  	<h1>Skills</h1>
+  <!--Begining of Oveview section different headings are used for different formatting techniques-->
+  <div class="rowofshit skill-flex-box">
+  	<div class="english">
+    <h1>Skills</h1>
   	<hr>
   	<ul>
-  		<li>Merchandising</li>
+  		<li>Customer Service</li>
   		<li>Sales</li>
+      <li>Merchandising</li>
   		<li>Orders</li>
   		<li>Microsoft Office</li>
   		<li>HTML 5</li>
@@ -37,35 +40,88 @@
   		<li>Renovation</li>
   		<li>Power Tools</li>
   		<li>Class 5</li>
+      <li>Clean Driver's Abstract</li>
   	</ul>
+   </div>
+    <div class="french">
+    <h1>Compétences</h1>
+    <hr>
+    <ul>
+      <li>Service Clients</li>
+      <li>Ventes</li>
+      <li>Merchandising</li>
+      <li>Ordres</li>
+      <li>Microsoft Office</li>
+      <li>HTML 5</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Réparation Mécanique</li>
+      <li>Rénovation</li>
+      <li>Outils Électroportatifs</li>
+      <li>Classe 5</li>
+      <li>Résumé Pilote Propre</li>
+    </ul>
+   </div>
   </div>
-
+  <!--EDUCATION EDUCATION EDUCATION EDUCATION-->
   <div class="rowofshit">
-  	<h1>Education</h1>
+  	<div class="english">
+    <h1>Education</h1>
   	<hr>
   	<ul>
   		<li><h2>Bachelor of Science in Mechanical Engineering <div class="blind">yoyoyyoyooyoyoyo</div> (2009 - 2014)</h2>
   			University of Calgary - Schulich School of Engineering
   		</li>
   	</ul>
+    </div>
+    <div class="french">
+    <h1>Éducation</h1>
+    <hr>
+    <ul>
+      <li><h2>Bachelor of Science en Génie Mécanique <div class="blind">yoyoyyoyoooyoyoyoyoyo</div> (2009 - 2014)</h2>
+        Université de Calgary - Schulich School of Engineering
+      </li>
+    </ul>
+    </div>
   </div>
-
+  <!--EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE-->
   <div class="rowofshit">
+    <div class="english">
   	<h1>Experience</h1>
   	<hr>
   	<ul>
   		<li><h3>Retail/Rental - (5 years)</h3>Straight Up Cycles (Road Bicycles, Retail, and Stock Orders in Victoria BC)<br>Kicking Horse Mountain Resort (Mountain Biking, Sporting Goods, and Clothing in Golden BC)
   		</li>
-  		<li><h3>Technician - (4 years)</h3>University of Calgary (Designing Thermodynamic Lab Experiments)<br>Derailed Sports (Mountain Bike Repair in Golden BC)
+  		<li><h3>Technician - (4 years)</h3>University of Calgary, Mechanical Engineering Department (Thermodynamic Lab Experiment Design)<br>Derailed Sports (Mountain Bike Repair in Golden BC)
   		</li>
+      <li><h3>Music Production - (2 years)</h3>Personal and Collaborative Home Studio Projects
+      </li>
   		<li><h3>Construction - (1 year)</h3>Greggs Marine Interiors &amp; EMC Custom Designs &amp; PC Designs (Tiling and Labor in Victoria BC)
   		</li>
-  		<li><h3>Programming - (1 year)</h3>University of Calgary &amp; Udacity (Online Web Development Courses)
+  		<li><h3>Programming - (1 year)</h3>U of C Engineering Courses &amp; Udacity (Online Web Development Courses)
   		</li>
   	</ul>
+    </div>
+    <div class="french">
+    <h1>Expérience</h1>
+    <hr>
+    <ul>
+      <li><h3>Vente au détail/Location - (5 Années)</h3>Straight Up Cycles ( Vélos Route, Commerce de Détail, et les Commandes de Stock à Victoria BC)<br>Kicking Horse Mountain Resort (Mountain Biking, Sporting Goods, and Clothing in Golden BC)
+      </li>
+      <li><h3>Technicien - (4 Années)</h3>Université de Calgary , Département de Génie Mécanique ( Thermodynamique Lab Experiment de Design)<br>Derailed Sports(Réparation de Vélo de Montagne à Golden BC)
+      </li>
+      <li><h3>Production de Musique - (2 Années)</h3>Personnels et Collaboratifs Accueil Studio Projects
+      </li>
+      <li><h3>Construction - (1 Années)</h3>Greggs Marine Interiors &amp; EMC Custom Designs &amp; PC Designs (Carreleurs et du travail à Victoria BC)
+      </li>
+      <li><h3>La Programmation - (1 Années)</h3>U de C Cours D'Ingénierie &amp; Udacity (Cours de Développement Web en Ligne)
+      </li>
+    </ul>
+    </div>
   </div>
-
+  <!--VOLUNTEERING VOLUNTEERING VOLUNTEEERING VOLUNTEERING-->
   <div class="rowofshit">
+    <div class="english">
   	<h1>Volunteering</h1>
   	<hr>
   	<ul>
@@ -81,25 +137,159 @@
   		<li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
   		</li>
   	</ul>
+    </div>
+    <div class="french">
+    <h1>Faire du Bénévolat</h1>
+    <hr>
+    <ul>
+      <li><h2>Festivals de Musique<div class="blind">yoyoyyoyoyoyoyoyyoyoyoyoyoyoyoyooyoyoyo</div> (2013 - 2015)</h2>
+        Pemberton Music Festival &amp; Rifflandia &amp; Thinklandia
+      </li>
+      <li><h2>Université de Calgary<div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div> (2011 - 2012)</h2>
+        Représentant Étudiant de l'Association Résidence étudiante
+      </li>
+      <li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
+      </li>
+      </li>
+      <li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
+      </li>
+    </ul>
+    </div>
   </div>
 
+  <!--HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY HISTORY SECTION-->
 
+  <div class="history">
+    <div class="english">
+    <h1>2016 (Golden - Montreal)</h1>
+    <hr>
+    <ul>
+      <li><h3>Winter - Spring</h3>Lived in Golden BC without employement. &nbsp;Enjoyed life in the mountains, enrolled in online music production courses and produced music nearly everyday.  &nbsp; Began studying french and moved to Montreal.
+      </li>
+    </ul>
+    </div>
+    <div class="french">
+    <h1>2016 (Golden - Montreal)</h1>
+    <hr>
+    <ul>
+      <li><h3>Hiver - Printemps</h3>Habitait dans Golden BC sans employement. &nbsp;Nous avons apprécié la vie dans les montagnes , inscrits à des cours de production de musique en ligne et produit de la musique presque tous les jours.  &nbsp; A commencé à étudier le français et a déménagé à Montréal.
+      </li>
+    </ul>
+    </div>
+  </div>
 
+  <div class="history">
+    <div class="english">
+    <h1>2015 (Victoria)</h1>
+    <hr>
+    <ul>
+      <li><h3>Summer - Fall</h3>Enrolled in web development courses at Udacity.com. &nbsp; Worked at Straight Up Cycles in Victoria; greeted and developed relationships with clients, plus managed shop orders (F/T for 7 months).
+      </li>
+      <li><h3>Winter - Spring</h3>Worked numerous temporary construction jobs with multiple companies; continued to practice safe work habits and learnt new renovation methods.
+      </li>
+    </ul>
+    </div>
+    <div class="french">
+    <h1>2015 (Victoria)</h1>
+    <hr>
+    <ul>
+      <li><h3>Été - Automne</h3>Enrôlé dans les cours de développement web à Udacity.com. &nbsp; A travaillé chez Straight Up Cycles à Victoria ; ordres de fabrication accueillis et les relations avec les clients développés , plus gérés ( F / T pour 7 mois ).
+      </li>
+      <li><h3>Hiver - Printemps</h3>A travaillé de nombreux emplois temporaires de construction avec de multiples entreprises ; a continué à pratiquer des habitudes de travail sécuritaires et appris de nouvelles méthodes de rénovation.
+      </li>
+    </ul>
+    </div>
+  </div>
 
+  <div class="history">
+    <div class="english">
+    <h1>2014 (Calgary - Victoria)</h1>
+    <hr>
+    <ul>
+      <li><h3>Summer - Fall</h3>Entered the construction industry full time with tiling company PC designs; assisted tile setters and worked hard.
+      </li>
+      <li><h3>Winter - Spring</h3>Graduated at the University of Calgary with a Bachelor of Science. Successfully finished the grad project with praises from sponsor (4FRONT Robotics). &nbsp; Travelled Japan with Engineering Faculty.
+      </li>
+    </ul>
+  </div>
+    <div class="french">
+    <h1>2014 (Calgary - Victoria)</h1>
+    <hr>
+    <ul>
+      <li><h3>Été - Automne</h3>Entrée dans le secteur de la construction à temps plein avec l'entreprise de carrelage PC dessins; assistée carreleurs et a travaillé dur.
+      </li>
+      <li><h3>Hiver - Printemps</h3>Diplômé de l'Université de Calgary avec un Bachelor of Science . Terminé avec succès le projet de grad de louanges de commanditaire (4front Robotics). &nbsp; Voyagé au Japon avec la Faculté de génie.
+      </li>
+    </ul>
+  </div>
+  </div>
 
+  <div class="history">
+    <div class="english">
+    <h1>Previous (Calgary - Golden)</h1>
+    <hr>
+    <ul>
+      <li><h3>2013</h3>Studied at the U of C and worked for the Mechanical Engineering department; developing lab experiments for students.
+      </li>
+      <li><h3>2009 - 2012</h3>Graduated at the Golden Secondary School with honors and awards. Enrolled in courses at the U of C. &nbsp; Worked as an experience bike salesman/technician.&nbsp; Rode mountain bikes passionately and competed in races across British Columbia.
+      </li>
+      <li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
+      </li>
+      </li>
+      <li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
+      </li>
+    </ul>
+    </div>
+    <div class="french">
+    <h1>Précédent (Calgary - Golden)</h1>
+    <hr>
+    <ul>
+      <li><h3>2013</h3>Étudie à le U de C et travaillé pour le département de génie mécanique; développer des expériences de laboratoire pour les étudiants.
+      </li>
+      <li><h3>2009 - 2012</h3>Diplômé de l'école secondaire d'or avec les honneurs et récompenses . Enrôlé dans les cours à le U de C. &nbsp; A travaillé comme une expérience vélo vendeur / technicien.&nbsp; Couru vélo de montagne avec passion et a participé à des courses en Colombie-Britannique.
+      </li>
+      <li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
+      </li>
+      </li>
+      <li><h2><div class="blind">yoyoyoyoyoyyoyoiyoyoyoyoyoyoyoyooyoyoyo</div></h2>
+      </li>
+    </ul>
+    </div>
+  </div>
+  <!--Put this shit at the end of HTML to fix some overlapping issues-->
+  <div class="simple-screen-fix" style="height: 100vh; width: 150px; position: fixed; top: 0; left:0;"></div>
+  <!--BUTTONS BUTTONS RUTTONS GET YOUR BUTTONS-->
+  <div class="buttons">
+    <input class="button" type="button" value="Overview" onclick="overView();">
+    <br>
+    <input class="button" type="button" value="History" onclick="history();">
+    <br>
+    <input class="button" type="button" value="English" onclick="english();" style="margin-top: 20px;">
+    <br>
+    <input class="button" type="button" value="French" onclick="french();">
+    <br>
+    <a class="button" href="mailto:glueckler@gmail.com" style="width:110px; margin-top: 20px;">Email</a>
+    <br>
+  </div>
+  <div class="buttons-small">
+    <input class="button" type="button" value="Overview" onclick="overView();">
 
+    <input class="button" type="button" value="History" onclick="history();">
 
+    <input class="button" type="button" value="English" onclick="english();" style="margin-top: 20px;">
 
+    <input class="button" type="button" value="French" onclick="french();">
 
+    <a class="button" href="mailto:glueckler@gmail.com" style="width:110px; margin-top: 20px;">Email</a>
 
-
-
-
-
-
-
-
+  </div>
+  <div class="contact">
+    <div style="font-size: 72%">Email<br>glueckler@gmail.com<br><br>
+                                Cell<br>XXX-XXX-XXXX
+    </div>
+  </div>
 
 </div>
 </body>
 </html>
+<script type="text/javascript" src="js/buttons.js"></script>
