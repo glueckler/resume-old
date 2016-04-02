@@ -32,3 +32,11 @@ function french(){
 	$('.french').hide().fadeIn()
 	return;
 };
+
+function myprint(){
+	$('.rowofshit').css('display', 'block');
+	$('.history').css('display', 'block');
+	window.print();
+	$('.history').css('display', 'none');
+	return;
+};
